@@ -14,9 +14,9 @@ This app tell you which number is bigger out of the three input given
 st.header('User Input')
 
 def user_input_features():
-    num1 = st.number_input("num1",min_value=0,max_value=999999999999999999999999,step=1)
-    num2 = st.number_input("num2",min_value=0,max_value=999999999999999999999999,step=1)
-    num3 = st.number_input("num3",min_value=0,max_value=999999999999999999999999,step=1)
+    num1 = st.number_input("num1")
+    num2 = st.number_input("num2")
+    num3 = st.number_input("num3")
   
     data = {'1st Number': num1,
             '2nd Number': num2,
