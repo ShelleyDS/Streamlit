@@ -30,6 +30,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df.to_dict())
 
+st.write(df['1st Number'])
 
 st.subheader('Max Value is')
 if (df['1st Number'] > df['2nd Number'] and df['1st Number'] > df['3rd Number']):
