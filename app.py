@@ -13,7 +13,7 @@ This app tell you which number is bigger out of the three input given
 
 st.header('User Input')
 
-num1 = st.number_input("1st Number", format = '%i')
+num1 = st.number_input("1st Number")
 num2 = st.number_input("2nd Number")
 num3 = st.number_input("3rd Number")
   
