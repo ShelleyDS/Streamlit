@@ -18,8 +18,6 @@ num2 = st.number_input("2nd Number")
 num3 = st.number_input("3rd Number")
   
 
-st.write(num1)
-
 st.subheader('Max Value is')
 if (num1 > num2 and num1 > num3):
     st.write(num1)
@@ -27,7 +25,7 @@ elif num2 > num3:
     st.write(num2)
 else :
     st.write(num3)
-#st.write(prediction)
+
 
 st.subheader('Thanks for using the app')
 
