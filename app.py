@@ -32,12 +32,12 @@ st.write(df.to_dict())
 
 
 st.subheader('Max Value is')
-if (num1 > num2 and num1 > num3):
-    st.write(num1)
-elif num2 > num3:
-    st.write(num2)
+if (df['1st Number'] > df['2nd Number'] and df['1st Number'] > df['3rd Number']):
+    st.write(df['1st Number'])
+elif df['2nd Number'] > df['3rd Number']:
+    st.write(df['2nd Number'])
 else :
-    st.write(num3)
+    st.write(df['3rd Number'])
 #st.write(prediction)
 
 st.subheader('Thanks for using the app')
