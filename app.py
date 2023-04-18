@@ -32,7 +32,7 @@ st.write(df.to_dict())
 
 
 st.subheader('Max Value is')
-if num1 > num2 && num1 > num3 :
+if (num1 > num2 and num1 > num3) :
     st.write(num1)
 else if num2 > num3:
     st.write(num2)
